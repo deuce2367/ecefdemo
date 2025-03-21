@@ -7,6 +7,11 @@ cmake ..  -Dpybind11_DIR=/opt/venv/lib64/python3.9/site-packages/pybind11/share/
 make -j
 ```
 
+## Expected Output:
+
+```      
+Given input x, y, z = 1113194.907, 1113194.907, 6356752.314
+
 --- Native ------------------------------
 Latitude: 76.17710632709549°
 Longitude: 45.0°
@@ -17,4 +22,4 @@ Latitude: 76.17710632709549°
 Longitude: 45.0°
 Altitude: 190811.72193944734 meter(s)
 Runtime: 0.5122115612030029 second(s)
-
+```
